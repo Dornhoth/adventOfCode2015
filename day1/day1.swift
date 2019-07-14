@@ -1,5 +1,13 @@
-// Part 1
+//
+//  day1.swift
+//  
+//
+//  Created by Heloise Parein on 14.07.19.
+//
 
+import Foundation
+
+// Part 1
 func getFloor(instructions: String) -> Int {
     var floor = 0;
     var characters = Array(instructions);
@@ -30,3 +38,19 @@ func getPositionBasement(instructions: String) -> Int {
     }
     return index;
 }
+
+
+
+print("Enter input file path:");
+var pathOptional = readLine();
+
+if let path = pathOptional {
+    let contents = try String(contentsOfFile: path, encoding: .utf8)
+    print(String(contents));
+    let resultPart1 = getFloor(instructions: contents);
+    let resultPart2 = getPositionBasement(instructions: contents);
+    
+    print("Result part 1 : \(resultPart1)");
+    print("Result part 2 : \(resultPart2)");
+}
+
