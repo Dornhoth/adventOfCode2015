@@ -46,7 +46,6 @@ var pathOptional = readLine();
 
 if let path = pathOptional {
     let contents = try String(contentsOfFile: path, encoding: .utf8)
-    print(String(contents));
     let resultPart1 = getFloor(instructions: contents);
     let resultPart2 = getPositionBasement(instructions: contents);
     
