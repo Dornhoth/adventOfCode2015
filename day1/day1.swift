@@ -2,7 +2,7 @@
 //  day1.swift
 //  
 //
-//  Created by Heloise Parein on 14.07.19.
+//  Created by Dornhoth on 14.07.19.
 //
 
 import Foundation
