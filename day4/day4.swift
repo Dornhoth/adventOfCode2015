@@ -1,5 +1,5 @@
 //
-//  Terminal Saved Output.swift
+//  day4.swift
 //  
 //
 //  Created by Dornhoth on 15.07.19.
