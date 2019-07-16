@@ -59,8 +59,7 @@ func getTotalLengthOfRubanNeeded(packets: [String]) -> Int {
 
 print("Enter input file path:");
 if let path = readLine() {
-    let contents = try String(contentsOfFile: path, encoding: .utf8);
-    let packets = contents.components(separatedBy: "\n");
+	
     let resultPart1 = getTotalAreaOfPaperNeeded(packets: packets);
     let resultPart2 = getTotalLengthOfRubanNeeded(packets: packets);
 
