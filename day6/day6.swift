@@ -1,9 +1,14 @@
 //
-//  day6.swift
+//  OpenQuizz
 //
 //  Created by Dornhoth on 16.07.19.
 //
 
+//
+//  day6.swift
+//
+//  Created by Dornhoth on 16.07.19.
+//
 
 import Foundation
 
