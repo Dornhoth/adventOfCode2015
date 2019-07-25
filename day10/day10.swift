@@ -33,5 +33,5 @@ if let input = readLine() {
     for _ in 0...49 { //39 for part 1
         nextArray = createNextArray(array: nextArray)
     }
-    print(nextArray.count )
+    print(nextArray.count)
 }
