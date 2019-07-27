@@ -113,8 +113,8 @@ print("Enter input file path:");
 if let path = readLine() {
     let contents = try String(contentsOfFile: path, encoding: .utf8)
     let changes = createChangesOfHappiness(contents: contents)
-    print("Result part1: \(getMaxHappiness(changesInHappiness: changes))")
+    print("Result part 1: \(getMaxHappiness(changesInHappiness: changes))")
     
     let changesOfHappinessWithMe = addMyselfToTheChanges(changesInHappiness: changes)
-    print("Result part1: \(getMaxHappiness(changesInHappiness: changesOfHappinessWithMe))")
+    print("Result part 2: \(getMaxHappiness(changesInHappiness: changesOfHappinessWithMe))")
 }
