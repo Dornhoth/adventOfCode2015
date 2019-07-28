@@ -108,4 +108,3 @@ if let path = readLine() {
         print("Result part 2: \(auntsPart2[0].number)")
     }
 }
-
